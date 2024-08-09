@@ -12,7 +12,7 @@ As per [this page.](https://docs.robusta.dev/master/configuration/alertmanager-i
 
 Run this:
 ```bash
-kubectl create secret generic alertmanager-monitoring-kube-prometheus-alertmanager-robusta --from-file=alertmanager-robusta-integration.yaml -n monitoring
+kubectl create secret generic alertmanager-monitoring-kube-prometheus-alertmanager --from-file=alertmanager.yaml -n monitoring
 ```
 
 ## Demo
